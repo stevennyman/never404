@@ -1,7 +1,7 @@
 {
   "name": "never404",
   "formation": {
-    "worker": {
+    "web": {
       "quantity": 1,
       "size": "free"
     }
