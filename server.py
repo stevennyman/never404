@@ -1,7 +1,6 @@
 from flask import Flask
 app = Flask(__name__)
 
-@app.route('/', defaults={'u_path': ''})
-@app.route('/<path:u_path>')
-def hello_world(path):
+@app.route('/<path:dummy>')
+def hello_world(dummy):
     return 'Hello, World!'
